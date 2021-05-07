@@ -1,6 +1,6 @@
-# Qovery Nuxt SSR Template
+# Qovery Nuxt Template
 
-Welcome to the Qovery Nuxt SSR template guide. In the next lines, you'll see how to initialize a nuxt application with server hosting mode in the environment setup by Qovery.
+Welcome to the Qovery Nuxt template guide. In the next lines, you'll see how to initialize a nuxt application with server hosting target mode in the environment setup by Qovery.
 
 Before you begin, this guide assumes you have create a Nuxt app with Qovery's template.
 
