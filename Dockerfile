@@ -4,10 +4,9 @@ RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
 
 RUN apk update && apk upgrade
-RUN apk add git
 
 COPY ./nuxt-app /usr/src/nuxt-app/
-RUN yarn
+RUN yarn install --silent
 
 RUN yarn build
 
