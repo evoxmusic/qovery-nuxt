@@ -1,6 +1,6 @@
-# Qovery Nuxt Template
+# Qovery Nuxt SSR Template
 
-Welcome to the Qovery Nuxt template guide. In the next lines, you'll see how to initialize a nuxt application in the environment setup by Qovery.
+Welcome to the Qovery Nuxt SSR template guide. In the next lines, you'll see how to initialize a nuxt application with Server Side Rendering in the environment setup by Qovery.
 
 Before you begin, this guide assumes you have create a Nuxt app with Qovery's template.
 
@@ -19,7 +19,7 @@ Before you begin, this guide assumes you have create a Nuxt app with Qovery's te
       npx create-nuxt-app nuxt-app
       ```
         
-3. Choose all the features you may want to have in your Nuxt application.   
+3. Choose all the features you may want to have in your Nuxt application. Be carefull by choosing `Universal (SSR / SSG)` in **Rendering mode**, `Server (Node.js hosting)` for the **Deployment target** and `None` for the **Version control system**
 4. Run the project locally with 
       ```bash
       yarn develop
